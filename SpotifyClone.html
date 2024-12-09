@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./assets/logo.png">
+    <title>Spotify - Web Player: Music for everyone</title>
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=WindSong:wght@400;500&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="main container">
+        <!-- Sidebar -->
+         <div class="sidebar">
+            <!-- Navbar -->
+            <div class="nav">
+                <ul class="nav-options">
+                    <!-- Home Link -->
+                    <li style="opacity: 1;">
+                        <i class="fa-solid fa-house"></i>
+                        <a href="#home">Home</a>
+                    </li>
+                    <!-- Search Link -->
+                    <li>
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                        <a href="#search">Search</a>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- Library -->
+             <div class="library">
+
+                <!-- Library Option/Links -->
+                <ul class="lib-options nav-options">
+                    <li>
+                        <img src="./assets/library_icon.png" alt="library-icon">
+                        <a href="#library">Your Library</a>
+                    </li>
+                    <div class="icons">
+                        <li>
+                            <a href="#playlist" id="plus" style="margin-left: 1rem;"><i class="fa-solid fa-plus"></i></a>
+                        </li>
+                        <li>
+                            <a href="#next" id="next"> <i class="fa-solid fa-arrow-right"></i> </a>
+                        </li>
+                    </div>
+                </ul>
+
+                <!-- Boxes -->
+                 <div class="boxes">
+                    <!-- box 1 -->
+                     <div class="box">
+                        <h5 class="card-title">Create your first playlist</h5>
+                        <p class="card-text">it's easy, we'll help you</p>
+                        <button class="badge">Create playlist</button>
+                     </div>
+                     <!-- box 2 -->
+                     <div class="box">
+                        <h5 class="card-title">Let's find some podcasts to follow</h5>
+                        <p class="card-text">We'll keep you updated on new episodes</p>
+                        <button class="badge">Browse podcasts</button>
+                     </div>
+                 </div>
+             </div>
+         </div>
+    
+        <!-- main-content -->
+         <div class="main-content">
+
+            <!-- Sticky Navbar -->
+            <div class="sticky-nav">
+                <!-- Arrows Icons -->
+                <div class="icons">
+                    <div class="backward">
+                        <img src="./assets/backward_icon.png" alt="backward_icon">
+                    </div>
+                    <div class="forward hide">
+                        <img src="./assets/forward_icon.png" alt="forward_icon">
+                    </div>
+                </div>
+
+                <!-- Profile Buttons -->
+                 <div class="prof-options">
+                    <button class="badge hide" style="margin-top: 0;">Explore Premium</button>
+                    <button class="badge dark" style="margin-top: 0;"> <i class="fa-solid fa-circle-arrow-down"></i> Install App</button>
+                    <div class="profile"><i class="fa-regular fa-user"></i></div>
+                 </div>
+            </div>
+
+
+            <!-- Cards -->
+             <div class="cards">
+                <h2>Recently Played</h2>
+
+                <!-- Recent Cards -->
+                 <div class="cards-container">
+                    <!-- Card 1 -->
+                   <div class="card">
+                       <img src="assets/card1img.jpeg" alt="card1">
+                       <h5 class="card-title">Top 50 - Global</h5>
+                       <p class="card-text">Your daily updates of the most played track...</p>
+                   </div>
+
+                 </div>
+
+
+                 <h2>Trending now near you</h2>
+
+                <!-- Recent Cards -->
+                 <div class="cards-container">
+                    <!-- Card 2 -->
+                   <div class="card">
+                       <img src="assets/card2img.jpeg" alt="card2">
+                       <h5 class="card-title">Indie Indial</h5>
+                       <p class="card-text">Best of the indian Indie...</p>
+                   </div>
+
+                   <!-- Card 3 -->
+                    <div class="card">
+                        <img src="assets/card3img.jpeg" alt="card3">
+                        <h5 class="card-title">Indie Indial</h5>
+                        <p class="card-text">Best of the indian Indie...</p>
+                    </div>
+
+
+                    <!-- Card 4 -->
+                    <div class="card">
+                        <img src="assets/card4img.jpeg" alt="card4">
+                        <h5 class="card-title">Indie Indial</h5>
+                        <p class="card-text">Best of the indian Indie...</p>
+                    </div>
+
+                    <!-- Card 5 -->
+                    <div class="card">
+                        <img src="assets/card2img.jpeg" alt="card5">
+                        <h5 class="card-title">Indie Indial</h5>
+                        <p class="card-text">Best of the indian Indie...</p>
+                    </div>
+
+
+                    <!-- Card 6 -->
+                    <div class="card">
+                        <img src="assets/card3img.jpeg" alt="card5">
+                        <h5 class="card-title">Indie Indial</h5>
+                        <p class="card-text">Best of the indian Indie...</p>
+                    </div>
+
+                 </div>
+
+
+                 <h2>Feature Charts</h2>
+
+                <!-- Featured Cards -->
+                 <div class="cards-container">
+                    <!-- Card 7 -->
+                   <div class="card">
+                       <img src="assets/card5img.jpeg" alt="card7">
+                       <h5 class="card-title">Top Song Global</h5>
+                       <p class="card-text">Your weekly updates of the most played...</p>
+                   </div>
+
+                    <div class="card">
+                        <img src="assets/card6img.jpeg" alt="card7">
+                        <h5 class="card-title">Top Song India</h5>
+                        <p class="card-text">Your weekly updates of the most played...</p>
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- Footer -->
+             <div class="footer">
+                <div class="line"></div>
+             </div>
+
+        </div>
+         
+        <!-- Music Player -->
+         <div class="music-player">
+            <div class="album">
+                <div class="img"><img src="./hm-assets/album_picture.jpeg" alt="album-pic"></div>
+                <div class="desc"><!-- description -->
+                    <p class="album-name">Daylight</p>
+                    <p>David Kushner</p>
+                </div>
+                <div class="album-controls">
+                    <img src="./hm-assets/album_icon1.png" alt="album-control-1">
+                    <img src="./hm-assets/album_icon2.png" alt="album-control-2" style="height: 1.75rem; width: 1.75rem;">
+                </div>
+            </div>
+            <!-- Media Player -->
+            <div class="media-player">
+                <!-- Control buttons -->
+                <div class="control-buttons">
+                    <img src="./assets/player_icon1.png" alt="icon1">
+                    <img src="./assets/player_icon2.png" alt="icon2">
+                    <img src="./assets/player_icon3.png" alt="icon3"  style="opacity: 1; height: 2rem; width: 2rem;">
+                    <img src="./assets/player_icon4.png" alt="icon4">
+                    <img src="./assets/player_icon5.png" alt="icon5">
+                </div>
+                <!-- playbac-bar -->
+                 <div class="playback-bar">
+                    <span>00.00</span>
+                    <input type="range" name="pbar" id="pbar" class="progress-bar" step="1" min="0" max="100">
+                    <span>3.33</span>
+                 </div>
+            </div>
+            <div class="controls">
+                <img src="./hm-assets/controls_icon1.png" alt="controls-icon-1">
+                <img src="./hm-assets/controls_icon2.png" alt="controls-icon-2">
+                <img src="./hm-assets/controls_icon3.png" alt="controls-icon-3" style="height: 1.25rem; width: 1.25rem; ">
+                <img src="./hm-assets/controls_icon4.png" alt="controls-icon-4" style="height: 1rem; width: 1rem; margin-left: 0.5rem;">
+                <img src="./hm-assets/controls_icon5.png" alt="controls-icon-5">
+                <input type="range" class="vol-bar progress-bar" min="0" max="100" step="1" >
+            </div>
+         </div>
+    </div>
+</body>
+</html>
